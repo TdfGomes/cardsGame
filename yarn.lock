@@ -1080,9 +1080,30 @@
     xcode "^3.0.1"
     xml2js "^0.4.23"
 
+"@expo/config-plugins@2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@expo/config-plugins/-/config-plugins-2.0.4.tgz#955fd70a2aeefbe99ec71cecb1d7ea7b626dc79e"
+  dependencies:
+    "@expo/config-types" "^41.0.0"
+    "@expo/json-file" "8.2.30"
+    "@expo/plist" "0.0.13"
+    debug "^4.3.1"
+    find-up "~5.0.0"
+    fs-extra "9.0.0"
+    getenv "^1.0.0"
+    glob "7.1.6"
+    resolve-from "^5.0.0"
+    slash "^3.0.0"
+    xcode "^3.0.1"
+    xml2js "^0.4.23"
+
 "@expo/config-types@^40.0.0-beta.2":
   version "40.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/@expo/config-types/-/config-types-40.0.0-beta.2.tgz#4fea4ef5654d02218b02b0b3772529a9ce5b0471"
+
+"@expo/config-types@^41.0.0":
+  version "41.0.0"
+  resolved "https://registry.yarnpkg.com/@expo/config-types/-/config-types-41.0.0.tgz#ffe1444c6c26e0e3a8f7149b4afe486e357536d1"
 
 "@expo/config@3.3.41":
   version "3.3.41"
@@ -1103,7 +1124,7 @@
     semver "7.3.2"
     slugify "^1.3.4"
 
-"@expo/config@^3.2.3", "@expo/config@^3.3.35":
+"@expo/config@^3.3.35":
   version "3.3.42"
   resolved "https://registry.yarnpkg.com/@expo/config/-/config-3.3.42.tgz#668d3d47112e562ad9265ebafa3db0063369cff8"
   dependencies:
@@ -1113,6 +1134,25 @@
     "@babel/preset-typescript" "~7.12.13"
     "@expo/config-plugins" "1.0.32"
     "@expo/config-types" "^40.0.0-beta.2"
+    "@expo/json-file" "8.2.30"
+    fs-extra "9.0.0"
+    getenv "^1.0.0"
+    glob "7.1.6"
+    require-from-string "^2.0.2"
+    resolve-from "^5.0.0"
+    semver "7.3.2"
+    slugify "^1.3.4"
+
+"@expo/config@^4.0.0":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@expo/config/-/config-4.0.4.tgz#48686c2b83bc00db469e01592e396e973e91e11d"
+  dependencies:
+    "@babel/core" "7.9.0"
+    "@babel/plugin-proposal-class-properties" "~7.12.13"
+    "@babel/preset-env" "~7.12.13"
+    "@babel/preset-typescript" "~7.12.13"
+    "@expo/config-plugins" "2.0.4"
+    "@expo/config-types" "^41.0.0"
     "@expo/json-file" "8.2.30"
     fs-extra "9.0.0"
     getenv "^1.0.0"
@@ -3425,7 +3465,7 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.8:
   dependencies:
     ms "2.0.0"
 
-debug@^4.1.0, debug@^4.1.1:
+debug@^4.1.0, debug@^4.1.1, debug@^4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
   dependencies:
@@ -4918,11 +4958,11 @@ jest-environment-node@^25.5.0:
     jest-util "^25.5.0"
     semver "^6.3.0"
 
-jest-expo@41.0.0:
-  version "41.0.0"
-  resolved "https://registry.yarnpkg.com/jest-expo/-/jest-expo-41.0.0.tgz#9a1a6f6c263b76d557c53f99f4f15f23ab3dae61"
+jest-expo@42.0.0:
+  version "42.0.0"
+  resolved "https://registry.yarnpkg.com/jest-expo/-/jest-expo-42.0.0.tgz#013d458ba8198c29a7a45c12a11974dc096e45aa"
   dependencies:
-    "@expo/config" "^3.2.3"
+    "@expo/config" "^4.0.0"
     babel-jest "^25.2.0"
     jest "^25.2.0"
     jest-watch-select-projects "^2.0.0"
