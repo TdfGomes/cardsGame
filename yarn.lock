@@ -5901,9 +5901,9 @@ react-native-scripts@2.0.1:
     cross-spawn "^5.0.1"
     minimist "^1.2.0"
 
-react-native@0.66.0:
-  version "0.66.0"
-  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.66.0.tgz#99bdd83a9a612a71b94242767989d666d445b007"
+react-native@0.66.1:
+  version "0.66.1"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.66.1.tgz#96defaf60579406321340ebe1dcea76a3c942806"
   dependencies:
     "@jest/create-cache-key-function" "^27.0.1"
     "@react-native-community/cli" "^6.0.0"
